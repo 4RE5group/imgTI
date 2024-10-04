@@ -86,7 +86,7 @@ namespace imgTI
 				myBitmap = ScaleBitmap(myBitmap, 132/2, 100/2);
 				int r, g, b, outY;
 				
-				int Xmax = 132/2;
+				int Xmax = 132*2;
 				int Ymax = 100/2;
 				
 				
@@ -99,7 +99,7 @@ EffDess
 "+Ymax.ToString()+@"→Ymax
 2→Ygrad
 1→Xrés
-0.5→X
+0.25→X
 1→PasTrace";
 
 				for (int y = 0; y < myBitmap.Height; y++) {
